@@ -1,0 +1,165 @@
+
+body {
+    margin: 0;
+    background-color: #100c0e;
+    color: white;
+    font-family: Arial;
+}
+
+
+header {
+    height: 40px;
+    padding: 5px 30px;
+    background-color: #21161b;
+    border-bottom: 2px solid darkred;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+
+.invite {
+    height: 340px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.picture {
+    width: 35%;
+    height: 260px;
+    border: 3px solid #a51e32;
+    background-color: #21161b;
+}
+
+.picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.invite-text {
+    flex: 1;
+    text-align: center;
+}
+
+h1 {
+    color: #e63b4e;
+    font-size: 45px;
+}
+
+h2 {
+    color: #e63b4e;
+}
+
+.invite-text p,
+.confirm-text p {
+    line-height: 1.5;
+}
+
+.details {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.box {
+    flex: 1;
+    height: 100px;
+    padding: 10px;
+    background-color: #21161b;
+    border: 2px solid #812033;
+    text-align: center;
+}
+
+.box h3 {
+    color: #e63b4e;
+}
+
+.box p {
+    font-size: 14px;
+}
+
+.rsvp {
+    text-align: center;
+    margin: 20px;
+}
+
+.rsvp a {
+    display: inline-block;
+    padding: 12px 60px;
+    background-color: #a51e32;
+    border: 2px solid #e63b4e;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.rsvp a:hover {
+    background-color: #d32f45;
+}
+
+.confirm {
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.confirm .picture {
+    width: 27%;
+    height: 210px;
+}
+
+.confirm-text {
+    flex: 1;
+    text-align: center;
+}
+
+/* Calendar */
+
+.calendar {
+    width: 220px;
+    margin: 20px auto;
+    padding: 12px;
+    border: 2px solid #a51e32;
+    color: #e63b4e;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Bottom section */
+
+.bottom {
+    height: 100px;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #21161b;
+    border: 2px solid #812033;
+    text-align: center;
+}
+
+.bottom h2 {
+    color: #e63b4e;
+}
+
+.bottom p {
+    font-size: 13px;
+}
+
+/* Footer */
+
+body::after {
+    content: "HALLOWEEN PARTY 2026";
+    display: block;
+    padding: 8px;
+    color: #e63b4e;
+    text-align: center;
+    font-size: 11px;
+}
